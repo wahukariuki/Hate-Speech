@@ -6,3 +6,7 @@ Social Media is the most commonly used way of communication in these recent time
 The Hate Speech Detecting Plug-In is embedded as a chrome extention which can be used by social media users in social media platform, to hide content that contains hate speech and to warn the user against the use of hate speech.
 # How we built it
 The plug-in is built using HTML, CSS and javascript. The backend server and the model are written in python and deployed using flask. We utilised tensorflow and nltk for training our sentiment analysis model.
+# Challenges we ran into
+1. Finding datasets to train our model
+2. Trying to connect our back-end server to the social media APIs
+
