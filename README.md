@@ -9,4 +9,8 @@ The plug-in is built using HTML, CSS and javascript. The backend server and the 
 # Challenges we ran into
 1. Finding datasets to train our model
 2. Trying to connect our back-end server to the social media APIs
+# Accomplishments
+1. Learning how to train a model
+2. Learning how to create a chrome extension
+3. Learning how to integrate the model, back-end server and the chrome extension
 
