@@ -13,4 +13,6 @@ The plug-in is built using HTML, CSS and javascript. The backend server and the 
 1. Learning how to train a model
 2. Learning how to create a chrome extension
 3. Learning how to integrate the model, back-end server and the chrome extension
+# What's Next?
+The Hate Speech Detecting Plug-In can later be integrated in different social media applications to make it easier to detect hate Speech
 
