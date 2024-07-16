@@ -1,0 +1,46 @@
+{
+    "name": "Hate Speech Detecting Plugin",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Detects hate speech on social media platforms and shows a popup.",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "scripting",
+        "notifications"
+    
+    ],
+    "host_permissions": [
+    "http://127.0.0.1:5000/",
+    "https://x.com/*",
+    "https://www.tiktok.com/*",
+    "https://www.instagram.com/*"
+],
+
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://x.com/*",
+                "https://www.tiktok.com/*",
+                "https://www.instagram.com/*"
+            ],
+            "js": ["hate_speech_detection.js", "content.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "NOHATE.png",
+            "48": "NOHATE.png",
+            "128": "NOHATE.png"
+        }
+    },
+    "icons": {
+        "16": "NOHATE.png",
+        "48": "NOHATE.png",
+        "128": "NOHATE.png"
+    }
+}
